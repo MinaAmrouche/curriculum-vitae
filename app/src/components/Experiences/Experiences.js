@@ -49,7 +49,7 @@ const Experiences = () => {
     <div className="Experience">
       <Separator />
       <div className="Experiences__column">
-        <h2>EXPERIENCES</h2>
+        <h2>Experiences</h2>
         <Separator />
         {experiences.map((item, index) => {
           return (
@@ -59,7 +59,7 @@ const Experiences = () => {
           );
         })}
         <Separator />
-        <h2>EDUCATION</h2>
+        <h2>Education</h2>
         <Separator />
         {education.map((item, index) => {
           return (
@@ -69,7 +69,7 @@ const Experiences = () => {
           );
         })}
         <Separator />
-        <h2>TRAININGS & CERTIFICATIONS</h2>
+        <h2>Trainings & certifications</h2>
         <Separator />
         {trainings.map((item, index) => {
           return (
