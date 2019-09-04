@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Lato&display=swap");
 @import "fonts";
+
+* {
+  box-sizing: border-box;
+}
 
 /*
 COLORS
@@ -8,14 +12,15 @@ $white: #ffffff;
 $black: #000000;
 $dark-grey: #262626;
 $medium-grey: #3a3a3a;
-$light-grey: #656565;
+$light-grey-1: #656565;
+$light-grey-2: #bbbbbb;
 $green: #3bf2c4;
 
 /*
 FONTS
 */
 $ff-body: "Montserrat", sans-serif;
-$ff-dates: "Raleway", sans-serif;
+$ff-dates: "Lato", sans-serif;
 
 $icon-github: "\e900";
 $icon-linkedin: "\e901";
@@ -46,8 +51,8 @@ $icon-phone: "\e903";
 body {
   font-family: $ff-body;
   background: $dark-grey;
-  color: $light-grey;
-  font-size: 14px;
+  color: $light-grey-1;
+  font-size: 12px;
 }
 
 h1 {
@@ -63,4 +68,5 @@ h2 {
 
 h3 {
   font-size: 1.2em;
+  color: $light-grey-2;
 }

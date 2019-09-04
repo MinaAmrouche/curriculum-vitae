@@ -4,7 +4,10 @@
   flex: 1;
   border-right: 2px solid $medium-grey;
   padding: 0 1.5em;
-  text-align: center;
+
+  &__name {
+    text-align: center;
+  }
 
   &__picture {
     max-width: 60%;
@@ -14,7 +17,6 @@
   }
 
   &__contact {
-    text-align: left;
     display: flex;
     flex-direction: column;
     padding: 1.5em 0;
