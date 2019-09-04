@@ -31,11 +31,6 @@ const Experiences = () => {
       title: "Faculté Saint-Charles – Marseille CUPGE (Cycle Universitaire Préparatoire aux Grandes Écoles), Licence 1",
       dates: "September 2014 - September 2015",
       content: "Marseille, France"
-    },
-    {
-      title: "Consultant, Saegus",
-      dates: "April 2018 - May 2019",
-      content: ""
     }
   ];
   const trainings = [
@@ -48,16 +43,6 @@ const Experiences = () => {
       title: "Formation Symfony",
       dates: "September 2016",
       content: "Jolicode - Paris"
-    },
-    {
-      title: "Faculté Saint-Charles – Marseille CUPGE (Cycle Universitaire Préparatoire aux Grandes Écoles), Licence 1",
-      dates: "September 2014 - September 2015",
-      content: "Marseille, France"
-    },
-    {
-      title: "Consultant, Saegus",
-      dates: "April 2018 - May 2019",
-      content: ""
     }
   ];
   return (
