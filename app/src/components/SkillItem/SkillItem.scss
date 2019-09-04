@@ -1,0 +1,18 @@
+@import "../../styles/global.scss";
+
+.SkillItem {
+  display: flex;
+  flex-direction: row;
+  margin: 0.8em 0;
+  align-items: center;
+
+  &__picto {
+    font-size: 1.5em;
+    margin-right: 1em;
+  }
+
+  &__progress-bar {
+    width: 70%;
+    font-size: 0.7em;
+  }
+}

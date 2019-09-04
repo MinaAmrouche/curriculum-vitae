@@ -3,8 +3,40 @@ import "./Introduction.scss";
 import ProfilePicture from "../../assets/images/profile-picture.jpg";
 import Separator from "../Separator/Separator";
 import ContactItem from "../ContactItem/ContactItem";
+import SkillItem from "../SkillItem/SkillItem";
+import SkillsList from "../SkillsList/SkillsList";
 
 const Introduction = () => {
+  const pictos = [
+    {
+      name: "icon-vue",
+      paths: 3
+    },
+    {
+      name: "icon-docker"
+    },
+    {
+      name: "icon-mongodb"
+    },
+    {
+      name: "icon-mysql"
+    },
+    {
+      name: "icon-nodejs"
+    },
+    {
+      name: "icon-php"
+    },
+    {
+      name: "icon-python"
+    },
+    {
+      name: "icon-sass"
+    },
+    {
+      name: "icon-circleci"
+    }
+  ];
   return (
     <div className="Introduction">
       <div className="Introduction__section">
@@ -38,6 +70,14 @@ const Introduction = () => {
         <Separator />
         <h2>Technical skills</h2>
         <Separator />
+        <br />
+        <SkillItem icon="icon-javascript" percentage="90"></SkillItem>
+        <SkillItem icon="icon-css3" percentage="50"></SkillItem>
+        <SkillItem icon="icon-html5" percentage="60"></SkillItem>
+        <SkillItem icon="icon-react" percentage="70"></SkillItem>
+        <SkillItem icon="icon-angular" percentage="50"></SkillItem>
+        <SkillItem icon="icon-git" percentage="90"></SkillItem>
+        <SkillsList icons={pictos} />
       </div>
     </div>
   );

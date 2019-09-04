@@ -1,0 +1,14 @@
+@import "../../styles/global.scss";
+
+.ProgressBar {
+  position: relative;
+  height: 1em;
+  width: 100%;
+  border: 1px solid $green;
+
+  &__filler {
+    background: $green;
+    height: 100%;
+    transition: width 0.2s ease-in;
+  }
+}
