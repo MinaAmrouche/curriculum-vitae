@@ -12,4 +12,16 @@
     border: 2px solid $green;
     margin-top: 1.5em;
   }
+
+  &__contact {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 0;
+  }
+
+  &__picto {
+    font-size: 2em;
+    color: $green;
+  }
 }

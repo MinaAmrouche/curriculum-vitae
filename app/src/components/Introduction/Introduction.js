@@ -1,9 +1,8 @@
 import React from "react";
 import "./Introduction.scss";
 import ProfilePicture from "../../assets/images/profile-picture.jpg";
-import PictoPhone from "../../assets/images/picto__phone.svg";
-import PictoMail from "../../assets/images/picto__mail.svg";
 import Separator from "../Separator/Separator";
+import ContactItem from "../ContactItem/ContactItem";
 
 const Introduction = () => {
   return (
@@ -15,8 +14,11 @@ const Introduction = () => {
         <h3>Front-end web developer</h3>
       </div>
       <Separator />
-      <img src={PictoMail} alt="" />
-      <img src={PictoPhone} alt="" />
+      <div className="Introduction__contact">
+        <ContactItem picto="icon-mail" content="mina.amrouche9@gmail.com" />
+        <ContactItem picto="icon-phone" content="+33 6 10 73 56 53" />
+        <ContactItem picto="icon-github" content="@minaamrouche" />
+      </div>
     </div>
   );
 };

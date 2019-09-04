@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap");
+@import "fonts";
 
 /*
 COLORS
@@ -15,6 +16,32 @@ FONTS
 */
 $ff-body: "Montserrat", sans-serif;
 $ff-dates: "Raleway", sans-serif;
+
+$icon-github: "\e900";
+$icon-linkedin: "\e901";
+$icon-mail: "\e902";
+$icon-phone: "\e903";
+
+.icon-github {
+  &:before {
+    content: $icon-github;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
 
 body {
   font-family: $ff-body;

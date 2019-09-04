@@ -1,0 +1,14 @@
+@import "../../styles/global.scss";
+
+.ContactItem {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0;
+  align-items: center;
+
+  &__picto {
+    font-size: 2em;
+    color: $green;
+    margin-right: 0.5em;
+  }
+}
