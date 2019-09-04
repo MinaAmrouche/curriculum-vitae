@@ -1,7 +1,11 @@
 @import "../../styles/global.scss";
 
-.Experience {
+.Experiences {
   flex: 3;
   border-left: 2px solid $medium-grey;
   padding: 0 1.5em;
+
+  &__section {
+    margin-bottom: 3em;
+  }
 }

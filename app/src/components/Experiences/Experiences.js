@@ -8,14 +8,17 @@ const Experiences = () => {
     {
       title: "Consultant, Saegus",
       dates: "April 2018 - May 2019",
-      content: ""
+      content:
+        "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
     },
     {
       title: "Web developer, Monsieur Biz",
-      dates: "September 2016 - March 20189",
-      content: ""
+      dates: "September 2016 - March 2018",
+      content:
+        "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
     }
   ];
+
   const education = [
     {
       title: "Master in Computer Science, Epitech",
@@ -46,9 +49,9 @@ const Experiences = () => {
     }
   ];
   return (
-    <div className="Experience">
-      <Separator />
-      <div className="Experiences__column">
+    <div className="Experiences">
+      <div className="Experiences__section">
+        <Separator />
         <h2>Experiences</h2>
         <Separator />
         {experiences.map((item, index) => {
@@ -58,6 +61,8 @@ const Experiences = () => {
             </Item>
           );
         })}
+      </div>
+      <div className="Experiences__section">
         <Separator />
         <h2>Education</h2>
         <Separator />
@@ -68,6 +73,8 @@ const Experiences = () => {
             </Item>
           );
         })}
+      </div>
+      <div className="Experiences__section">
         <Separator />
         <h2>Trainings & certifications</h2>
         <Separator />

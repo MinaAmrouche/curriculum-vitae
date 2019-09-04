@@ -10,7 +10,7 @@
   }
 
   &__picture {
-    max-width: 60%;
+    max-width: 50%;
     border-radius: 50%;
     border: 2px solid $green;
     margin-top: 1.5em;
@@ -19,11 +19,14 @@
   &__contact {
     display: flex;
     flex-direction: column;
-    padding: 1.5em 0;
   }
 
   &__picto {
     font-size: 2em;
     color: $green;
+  }
+
+  &__section {
+    margin-bottom: 2em;
   }
 }
