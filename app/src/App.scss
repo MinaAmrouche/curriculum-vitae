@@ -1,0 +1,47 @@
+@import "styles/global.scss";
+
+.App {
+  width: 80%;
+  margin: auto;
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+}
+
+.introduction {
+  flex: 1;
+  border-right: 2px solid $medium-grey;
+  padding: 0 1.5em;
+  text-align: center;
+
+  &__picture {
+    max-width: 60%;
+    border-radius: 50%;
+    border: 2px solid $green;
+    margin-top: 1.5em;
+  }
+}
+
+.experience {
+  flex: 3;
+  border-left: 2px solid $medium-grey;
+  padding: 0 1.5em;
+
+  &__job-title {
+    display: flex;
+    flex-direction: row;
+
+    & > * {
+      flex: 1;
+    }
+
+    &__date {
+      text-align: right;
+    }
+  }
+}
+
+.separator {
+  border-color: $green;
+  margin: 0;
+}

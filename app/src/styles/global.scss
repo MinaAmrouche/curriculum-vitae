@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap");
+
+/*
+COLORS
+*/
+$white: #ffffff;
+$black: #000000;
+$dark-grey: #262626;
+$medium-grey: #3a3a3a;
+$light-grey: #656565;
+$green: #3bf2c4;
+
+/*
+FONTS
+*/
+$ff-body: "Montserrat", sans-serif;
+$ff-dates: "Raleway", sans-serif;
+
+body {
+  font-family: $ff-body;
+  background: $dark-grey;
+  color: $light-grey;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 2em;
+  color: $white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: $white;
+}
+
+h3 {
+  font-size: 1.2em;
+}

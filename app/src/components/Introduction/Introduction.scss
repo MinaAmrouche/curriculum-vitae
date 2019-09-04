@@ -1,0 +1,15 @@
+@import "../../styles/global.scss";
+
+.Introduction {
+  flex: 1;
+  border-right: 2px solid $medium-grey;
+  padding: 0 1.5em;
+  text-align: center;
+
+  &__picture {
+    max-width: 60%;
+    border-radius: 50%;
+    border: 2px solid $green;
+    margin-top: 1.5em;
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../styles/global.scss";
+
+.Item {
+  &__title {
+    display: flex;
+    flex-direction: row;
+
+    & > * {
+      flex: 1;
+    }
+  }
+  &__dates {
+    text-align: right;
+    font-family: $ff-dates;
+  }
+}
