@@ -8,4 +8,17 @@
   &__section {
     margin-bottom: 3em;
   }
+
+  &__two-columns {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    > * {
+      flex: 1;
+      &:first-child {
+        margin-right: 2em;
+      }
+    }
+  }
 }

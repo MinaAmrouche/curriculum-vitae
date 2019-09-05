@@ -2,6 +2,7 @@ import React from "react";
 import "./Experiences.scss";
 import Separator from "../Separator/Separator";
 import Item from "../Item/Item";
+import HobbiesList from "../HobbiesList/HobbiesList";
 
 const Experiences = () => {
   const experiences = [
@@ -48,6 +49,26 @@ const Experiences = () => {
       content: "Jolicode - Paris"
     }
   ];
+  const hobbies = [
+    {
+      name: "icon-monitor"
+    },
+    {
+      name: "icon-plane"
+    },
+    {
+      name: "icon-cake"
+    },
+    {
+      name: "icon-headphones"
+    },
+    {
+      name: "icon-book"
+    },
+    {
+      name: "icon-camera"
+    }
+  ];
   return (
     <div className="Experiences">
       <div className="Experiences__section">
@@ -85,6 +106,14 @@ const Experiences = () => {
             </Item>
           );
         })}
+      </div>
+      <div className="Experiences__two-columns">
+        <div className="Experiences__section">
+          <Separator />
+          <h2>Hobbies</h2>
+          <Separator />
+          <HobbiesList icons={hobbies} />
+        </div>
       </div>
     </div>
   );
