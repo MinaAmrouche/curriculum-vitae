@@ -53,6 +53,7 @@ const Introduction = () => {
           <ContactItem picto="icon-mail" content="mina.amrouche9@gmail.com" />
           <ContactItem picto="icon-phone" content="+33 6 10 73 56 53" />
           <ContactItem picto="icon-github" content="@minaamrouche" />
+          <ContactItem picto="icon-map-pin" content="Den Haag" />
         </div>
       </div>
       <div className="Introduction__section">
