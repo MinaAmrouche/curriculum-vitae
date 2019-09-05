@@ -1,24 +1,18 @@
 import React from "react";
 import "./SkillsList.scss";
+import PictoDisplayer from "../PictoDisplayer/PictoDisplayer";
 
 const SkillsList = ({ icons }) => {
   return (
     <div className="SkillsList">
-      <i className="icon-plus-square SkillsList__plus"></i>
-      {icons.map((icon, index) => {
-        let paths = [];
-        for (let i = 1; i <= icon.paths; i++) {
-          paths.push(`path${i}`);
-        }
-
-        return (
-          <i className={[icon.name, "SkillsList__picto"].join(" ")} key={index}>
-            {paths.map((path, index) => {
-              return <span className={path} key={index}></span>;
-            })}
-          </i>
-        );
-      })}
+      <i className="icon-plus-circle SkillsList__plus"></i>
+      <div className="SkillsList__list">
+        {icons.map((icon, index) => {
+          return (
+            <PictoDisplayer picto={icon.name} numberOfPaths={icon.paths} className="SkillsList__picto" key={index} />
+          );
+        })}
+      </div>
     </div>
   );
 };
