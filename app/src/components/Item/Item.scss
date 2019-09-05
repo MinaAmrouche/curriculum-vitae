@@ -7,12 +7,16 @@
     flex-direction: row;
 
     & > * {
-      flex: 1;
       margin-bottom: 0.2em;
     }
   }
 
+  &__title {
+    flex: 2;
+  }
+
   &__dates {
+    flex: 1;
     text-align: right;
     font-family: $ff-dates;
   }
