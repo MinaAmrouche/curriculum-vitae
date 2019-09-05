@@ -7,13 +7,13 @@ const Experiences = () => {
   const experiences = [
     {
       title: "Consultant, Saegus",
-      dates: "April 2018 - May 2019",
+      dates: "Apr 2018 - May 2019",
       content:
         "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
     },
     {
       title: "Web developer, Monsieur Biz",
-      dates: "September 2016 - March 2018",
+      dates: "Sep 2016 - Mar 2018",
       content:
         "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
     }
@@ -22,29 +22,29 @@ const Experiences = () => {
   const education = [
     {
       title: "Master in Computer Science, Epitech",
-      dates: "September 2015 - September 2018",
+      dates: "Sep 2015 - Sep 2018",
       content: "Paris, France"
     },
     {
       title: "Mathématiques-Informatique, Licence 2",
-      dates: "September 2014 - September 2015",
+      dates: "Sep 2014 - Sep 2015",
       content: "Marseille, France"
     },
     {
       title: "Faculté Saint-Charles – Marseille CUPGE (Cycle Universitaire Préparatoire aux Grandes Écoles), Licence 1",
-      dates: "September 2014 - September 2015",
+      dates: "Sep 2013 - Sep 2014",
       content: "Marseille, France"
     }
   ];
   const trainings = [
     {
       title: "Certification PSM I (Professional Scrum Master I)",
-      dates: "November 2018",
+      dates: "Nov 2018",
       content: "Score : 98.8% Scrum.org"
     },
     {
-      title: "Formation Symfony",
-      dates: "September 2016",
+      title: "Symfony training",
+      dates: "Sep 2016",
       content: "Jolicode - Paris"
     }
   ];
@@ -52,7 +52,7 @@ const Experiences = () => {
     <div className="Experiences">
       <div className="Experiences__section">
         <Separator />
-        <h2>Experiences</h2>
+        <h2>Experience</h2>
         <Separator />
         {experiences.map((item, index) => {
           return (
@@ -76,7 +76,7 @@ const Experiences = () => {
       </div>
       <div className="Experiences__section">
         <Separator />
-        <h2>Trainings & certifications</h2>
+        <h2>Training & certification</h2>
         <Separator />
         {trainings.map((item, index) => {
           return (
