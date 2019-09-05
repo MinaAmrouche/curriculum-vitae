@@ -3,6 +3,7 @@ import "./Experiences.scss";
 import Separator from "../Separator/Separator";
 import Item from "../Item/Item";
 import HobbiesList from "../HobbiesList/HobbiesList";
+import SkillItem from "../SkillItem/SkillItem";
 
 const Experiences = () => {
   const experiences = [
@@ -113,6 +114,13 @@ const Experiences = () => {
           <h2>Hobbies</h2>
           <Separator />
           <HobbiesList icons={hobbies} />
+        </div>
+        <div className="Experiences__section">
+          <Separator />
+          <h2>Languages</h2>
+          <Separator />
+          <SkillItem icon="icon-france" iconPaths="4" percentage="100" />
+          <SkillItem icon="icon-uk" iconPaths="15" percentage="70" />
         </div>
       </div>
     </div>
