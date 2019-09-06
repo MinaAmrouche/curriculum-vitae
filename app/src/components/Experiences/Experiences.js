@@ -8,16 +8,16 @@ import SkillItem from "../SkillItem/SkillItem";
 const Experiences = () => {
   const experiences = [
     {
-      title: "Consultant, Saegus",
+      title: "Front-end web developer, Saegus",
       dates: "Apr 2018 - May 2019",
       content:
-        "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+        "Fruitful collaboration with designers (UX, UI, graphist...) and data scientists. Development from scratch of several web applications for CAC40 companies (biggest french companies) : L'Oréal, Engie, Orange, TechnipFMC... Full project management including direct discussion with clients, costs estimation and development."
     },
     {
-      title: "Web developer, Monsieur Biz",
+      title: "Fullstack web developer, Monsieur Biz",
       dates: "Sep 2016 - Mar 2018",
       content:
-        "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+        "Maintainance and development of various e-commerce websites. Development from scratch of an e-commerce website with agile methodology. On my own, creation of 2 Symfony web applications (for internal use & for a client). Attendance to several web-related events (Symfony Live, PHP Forum, meetups...)."
     }
   ];
 
@@ -28,21 +28,31 @@ const Experiences = () => {
       content: "Paris, France"
     },
     {
-      title: "Mathématiques-Informatique, Licence 2",
+      title: "Mathematics / Computer science, Bachelor, 2nd year",
       dates: "Sep 2014 - Sep 2015",
-      content: "Marseille, France"
+      content: "Faculté Saint-Charles, Marseille, France"
     },
     {
-      title: "Faculté Saint-Charles – Marseille CUPGE (Cycle Universitaire Préparatoire aux Grandes Écoles), Licence 1",
+      title: "Mathematics / Physics / Chemistry, Bachelor, 1st year",
       dates: "Sep 2013 - Sep 2014",
-      content: "Marseille, France"
+      content: "Faculté Saint-Charles, Marseille, France"
+    },
+    {
+      title: "Baccalauréat (French high school diploma) specialised in Science",
+      dates: "Sept 2010 - Jun 2013",
+      content: "Lycée Thiers, Marseille, France"
     }
   ];
   const trainings = [
     {
       title: "Certification PSM I (Professional Scrum Master I)",
       dates: "Nov 2018",
-      content: "Score : 98.8% Scrum.org"
+      content: "Score : 98.8% - Scrum.org"
+    },
+    {
+      title: "Scrum training",
+      dates: "Nov 2018",
+      content: "Saegus Institute - Paris"
     },
     {
       title: "Symfony training",
