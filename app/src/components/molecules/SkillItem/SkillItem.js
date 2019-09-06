@@ -1,7 +1,6 @@
 import React from "react";
 import "./SkillItem.scss";
-import ProgressBar from "../ProgressBar/ProgressBar";
-import PictoDisplayer from "../PictoDisplayer/PictoDisplayer";
+import { ProgressBar, PictoDisplayer } from "components/atoms";
 
 const SkillItem = ({ icon, iconPaths, percentage }) => {
   return (

@@ -1,11 +1,8 @@
 import React from "react";
 import "./Introduction.scss";
-import ProfilePicture from "../../assets/images/profile-picture.jpg";
-import Separator from "../Separator/Separator";
-import ContactItem from "../ContactItem/ContactItem";
-import SkillItem from "../SkillItem/SkillItem";
-import SkillsList from "../SkillsList/SkillsList";
-import HobbiesList from "../HobbiesList/HobbiesList";
+import ProfilePicture from "assets/images/profile-picture.jpg";
+import { Separator } from "components/atoms";
+import { ContactItem, SkillItem, SkillsList, HobbiesList } from "components/molecules";
 
 const Introduction = () => {
   const pictos = [

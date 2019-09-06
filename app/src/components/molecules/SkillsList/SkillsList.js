@@ -1,6 +1,6 @@
 import React from "react";
 import "./SkillsList.scss";
-import PictoDisplayer from "../PictoDisplayer/PictoDisplayer";
+import { PictoDisplayer } from "components/atoms";
 
 const SkillsList = ({ icons }) => {
   return (

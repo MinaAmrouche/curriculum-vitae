@@ -1,7 +1,7 @@
 import React from "react";
 import "./Experiences.scss";
-import Separator from "../Separator/Separator";
-import Item from "../Item/Item";
+import { Separator } from "components/atoms";
+import { Item } from "components/molecules";
 
 const Experiences = () => {
   const experiences = [
