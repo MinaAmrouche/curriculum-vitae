@@ -2,8 +2,6 @@ import React from "react";
 import "./Experiences.scss";
 import Separator from "../Separator/Separator";
 import Item from "../Item/Item";
-import HobbiesList from "../HobbiesList/HobbiesList";
-import SkillItem from "../SkillItem/SkillItem";
 
 const Experiences = () => {
   const experiences = [
@@ -60,28 +58,19 @@ const Experiences = () => {
       content: "Jolicode - Paris"
     }
   ];
-  const hobbies = [
-    {
-      name: "icon-monitor"
-    },
-    {
-      name: "icon-plane"
-    },
-    {
-      name: "icon-cake"
-    },
-    {
-      name: "icon-headphones"
-    },
-    {
-      name: "icon-book"
-    },
-    {
-      name: "icon-camera"
-    }
-  ];
+  const profile =
+    "After more than 2 years of web development in France, I'm looking for a job in the Netherlands. I'm always eager to learn how to make my work better, easier and more interesting. The quality and the clarity of my code is one of the most important things to me. Development is also about sharing and improving constantly and other developers should understand my code easily. Professional but easy-going, I'm not afraid to take initiative and work until a problem is solved.";
+
   return (
     <div className="Experiences">
+      <div className="Experiences__profile">
+        <h2>Profile</h2>
+        <Separator />
+
+        <br />
+        {profile}
+      </div>
+
       <div className="Experiences__section">
         <Separator />
         <h2>Experience</h2>
@@ -117,21 +106,6 @@ const Experiences = () => {
             </Item>
           );
         })}
-      </div>
-      <div className="Experiences__two-columns">
-        <div className="Experiences__section">
-          <Separator />
-          <h2>Hobbies</h2>
-          <Separator />
-          <HobbiesList icons={hobbies} />
-        </div>
-        <div className="Experiences__section">
-          <Separator />
-          <h2>Languages</h2>
-          <Separator />
-          <SkillItem icon="icon-france" iconPaths="4" percentage="100" />
-          <SkillItem icon="icon-uk" iconPaths="15" percentage="70" />
-        </div>
       </div>
     </div>
   );

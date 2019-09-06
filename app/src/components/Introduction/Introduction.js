@@ -5,6 +5,7 @@ import Separator from "../Separator/Separator";
 import ContactItem from "../ContactItem/ContactItem";
 import SkillItem from "../SkillItem/SkillItem";
 import SkillsList from "../SkillsList/SkillsList";
+import HobbiesList from "../HobbiesList/HobbiesList";
 
 const Introduction = () => {
   const pictos = [
@@ -34,9 +35,36 @@ const Introduction = () => {
       name: "icon-sass"
     },
     {
+      name: "icon-symfony"
+    },
+    {
+      name: "icon-magento"
+    },
+    {
       name: "icon-circleci"
     }
   ];
+  const hobbies = [
+    {
+      name: "icon-monitor"
+    },
+    {
+      name: "icon-plane"
+    },
+    {
+      name: "icon-cake"
+    },
+    {
+      name: "icon-headphones"
+    },
+    {
+      name: "icon-book"
+    },
+    {
+      name: "icon-camera"
+    }
+  ];
+
   return (
     <div className="Introduction">
       <div className="Introduction__section">
@@ -52,20 +80,9 @@ const Introduction = () => {
         <div className="Introduction__contact">
           <ContactItem picto="icon-mail" content="mina.amrouche9@gmail.com" />
           <ContactItem picto="icon-phone" content="+33 6 10 73 56 53" />
-          <ContactItem picto="icon-github" content="@minaamrouche" />
+          <ContactItem picto="icon-github" content="github.com/minaamrouche" />
           <ContactItem picto="icon-map-pin" content="Den Haag" />
         </div>
-      </div>
-      <div className="Introduction__section">
-        <Separator />
-        <h2>Profile</h2>
-        <Separator />
-        <br />
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
       </div>
       <div className="Introduction__section">
         <Separator />
@@ -79,6 +96,20 @@ const Introduction = () => {
         <SkillItem icon="icon-angular" percentage="50"></SkillItem>
         <SkillItem icon="icon-git" percentage="90"></SkillItem>
         <SkillsList icons={pictos} />
+      </div>
+      <div className="Introduction__section">
+        <Separator />
+        <h2>Hobbies</h2>
+        <Separator />
+        <HobbiesList icons={hobbies} />
+      </div>
+      <div className="Introduction__section">
+        <Separator />
+        <h2>Languages</h2>
+        <Separator />
+        <br />
+        <SkillItem icon="icon-france" iconPaths="4" percentage="100" />
+        <SkillItem icon="icon-uk" iconPaths="15" percentage="70" />
       </div>
     </div>
   );
