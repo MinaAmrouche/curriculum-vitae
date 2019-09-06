@@ -2,6 +2,7 @@
 
 .Separator {
   width: 40%;
-  border-color: $green;
+  border: 1px solid $green;
+  background: $green;
   margin: 0;
 }
