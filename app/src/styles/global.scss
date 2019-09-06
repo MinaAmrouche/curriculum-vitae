@@ -22,32 +22,6 @@ FONTS
 $ff-body: "Montserrat", sans-serif;
 $ff-dates: "Lato", sans-serif;
 
-$icon-github: "\e900";
-$icon-linkedin: "\e901";
-$icon-mail: "\e902";
-$icon-phone: "\e903";
-
-.icon-github {
-  &:before {
-    content: $icon-github;
-  }
-}
-.icon-linkedin {
-  &:before {
-    content: $icon-linkedin;
-  }
-}
-.icon-mail {
-  &:before {
-    content: $icon-mail;
-  }
-}
-.icon-phone {
-  &:before {
-    content: $icon-phone;
-  }
-}
-
 body {
   font-family: $ff-body;
   background: $dark-grey;

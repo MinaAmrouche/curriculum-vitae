@@ -3,11 +3,11 @@ $icomoon-font-path: "../assets/fonts/cv" !default;
 
 @font-face {
   font-family: "#{$icomoon-font-family}";
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fm7hhl");
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fm7hhl#iefix") format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?fm7hhl") format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?fm7hhl") format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?fm7hhl##{$icomoon-font-family}") format("svg");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ykefiy");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ykefiy#iefix") format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ykefiy") format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ykefiy") format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ykefiy##{$icomoon-font-family}") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,4 +27,578 @@ $icomoon-font-path: "../assets/fonts/cv" !default;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+$icon-uk-path1: "\e93c";
+$icon-uk-path2: "\e93d";
+$icon-uk-path3: "\e93e";
+$icon-uk-path4: "\e93f";
+$icon-uk-path5: "\e940";
+$icon-uk-path6: "\e941";
+$icon-uk-path7: "\e942";
+$icon-uk-path8: "\e943";
+$icon-uk-path9: "\e944";
+$icon-uk-path10: "\e945";
+$icon-uk-path11: "\e946";
+$icon-uk-path12: "\e947";
+$icon-uk-path13: "\e948";
+$icon-uk-path14: "\e949";
+$icon-uk-path15: "\e94a";
+$icon-france-path1: "\e94b";
+$icon-france-path2: "\e94c";
+$icon-france-path3: "\e94d";
+$icon-france-path4: "\e94e";
+$icon-plus-circle: "\e930";
+$icon-map-pin: "\e931";
+$icon-plus-square: "\e92f";
+$icon-nodejs: "\e91f";
+$icon-mongodb: "\e928";
+$icon-angular: "\e904";
+$icon-circleci: "\e909";
+$icon-css3: "\e90a";
+$icon-docker: "\e920";
+$icon-git: "\e921";
+$icon-html5: "\e922";
+$icon-javascript: "\e925";
+$icon-magento: "\e926";
+$icon-mysql: "\e927";
+$icon-php: "\e929";
+$icon-python: "\e92a";
+$icon-react: "\e92b";
+$icon-sass: "\e92c";
+$icon-symfony: "\e92d";
+$icon-vuejs: "\e92e";
+$icon-vue-path1: "\e905";
+$icon-vue-path2: "\e906";
+$icon-vue-path3: "\e907";
+$icon-magento1: "\e908";
+$icon-php1-path1: "\e90b";
+$icon-php1-path2: "\e90c";
+$icon-html5-text-path1: "\e90d";
+$icon-html5-text-path2: "\e90e";
+$icon-html5-text-path3: "\e90f";
+$icon-html5-text-path4: "\e910";
+$icon-html5-text-path5: "\e911";
+$icon-css3-text-path1: "\e912";
+$icon-css3-text-path2: "\e913";
+$icon-css3-text-path3: "\e914";
+$icon-css3-text-path4: "\e915";
+$icon-css3-text-path5: "\e916";
+$icon-css3-text-path6: "\e917";
+$icon-css3-text-path7: "\e918";
+$icon-css3-text-path8: "\e919";
+$icon-css3-text-path9: "\e91a";
+$icon-css3-text-path10: "\e91b";
+$icon-angular-color-path1: "\e91c";
+$icon-angular-color-path2: "\e91d";
+$icon-angular-color-path3: "\e91e";
+$icon-javascript-color-path1: "\e923";
+$icon-javascript-color-path2: "\e924";
+$icon-github: "\e900";
+$icon-linkedin: "\e901";
+$icon-mail: "\e902";
+$icon-phone: "\e903";
+$icon-monitor: "\e936";
+$icon-camera: "\e937";
+$icon-cake: "\e938";
+$icon-headphones: "\e939";
+$icon-plane: "\e93a";
+$icon-book: "\e93b";
+$icon-airplane: "\e932";
+$icon-film: "\e933";
+$icon-location-food: "\e934";
+$icon-music-notes: "\e935";
+
+.icon-uk .path1 {
+  &:before {
+    content: $icon-uk-path1;
+    color: rgb(240, 249, 255);
+  }
+}
+.icon-uk .path2 {
+  &:before {
+    content: $icon-uk-path2;
+    margin-left: -1em;
+    color: rgb(244, 0, 85);
+  }
+}
+.icon-uk .path3 {
+  &:before {
+    content: $icon-uk-path3;
+    margin-left: -1em;
+    color: rgb(194, 0, 68);
+  }
+}
+.icon-uk .path4 {
+  &:before {
+    content: $icon-uk-path4;
+    margin-left: -1em;
+    color: rgb(244, 0, 85);
+  }
+}
+.icon-uk .path5 {
+  &:before {
+    content: $icon-uk-path5;
+    margin-left: -1em;
+    color: rgb(194, 0, 68);
+  }
+}
+.icon-uk .path6 {
+  &:before {
+    content: $icon-uk-path6;
+    margin-left: -1em;
+    color: rgb(64, 107, 212);
+  }
+}
+.icon-uk .path7 {
+  &:before {
+    content: $icon-uk-path7;
+    margin-left: -1em;
+    color: rgb(50, 87, 176);
+  }
+}
+.icon-uk .path8 {
+  &:before {
+    content: $icon-uk-path8;
+    margin-left: -1em;
+    color: rgb(50, 87, 176);
+  }
+}
+.icon-uk .path9 {
+  &:before {
+    content: $icon-uk-path9;
+    margin-left: -1em;
+    color: rgb(64, 107, 212);
+  }
+}
+.icon-uk .path10 {
+  &:before {
+    content: $icon-uk-path10;
+    margin-left: -1em;
+    color: rgb(64, 107, 212);
+  }
+}
+.icon-uk .path11 {
+  &:before {
+    content: $icon-uk-path11;
+    margin-left: -1em;
+    color: rgb(64, 107, 212);
+  }
+}
+.icon-uk .path12 {
+  &:before {
+    content: $icon-uk-path12;
+    margin-left: -1em;
+    color: rgb(50, 87, 176);
+  }
+}
+.icon-uk .path13 {
+  &:before {
+    content: $icon-uk-path13;
+    margin-left: -1em;
+    color: rgb(50, 87, 176);
+  }
+}
+.icon-uk .path14 {
+  &:before {
+    content: $icon-uk-path14;
+    margin-left: -1em;
+    color: rgb(244, 0, 85);
+  }
+}
+.icon-uk .path15 {
+  &:before {
+    content: $icon-uk-path15;
+    margin-left: -1em;
+    color: rgb(194, 0, 68);
+  }
+}
+.icon-france .path1 {
+  &:before {
+    content: $icon-france-path1;
+    color: rgb(64, 107, 212);
+  }
+}
+.icon-france .path2 {
+  &:before {
+    content: $icon-france-path2;
+    margin-left: -1em;
+    color: rgb(194, 0, 68);
+  }
+}
+.icon-france .path3 {
+  &:before {
+    content: $icon-france-path3;
+    margin-left: -1em;
+    color: rgb(240, 249, 255);
+  }
+}
+.icon-france .path4 {
+  &:before {
+    content: $icon-france-path4;
+    margin-left: -1em;
+    color: rgb(206, 229, 245);
+  }
+}
+.icon-plus-circle {
+  &:before {
+    content: $icon-plus-circle;
+  }
+}
+.icon-map-pin {
+  &:before {
+    content: $icon-map-pin;
+  }
+}
+.icon-plus-square {
+  &:before {
+    content: $icon-plus-square;
+  }
+}
+.icon-nodejs {
+  &:before {
+    content: $icon-nodejs;
+    color: #8cc84b;
+  }
+}
+.icon-mongodb {
+  &:before {
+    content: $icon-mongodb;
+    color: #47a248;
+  }
+}
+.icon-angular {
+  &:before {
+    content: $icon-angular;
+    color: #dd0031;
+  }
+}
+.icon-circleci {
+  &:before {
+    content: $icon-circleci;
+  }
+}
+.icon-css3 {
+  &:before {
+    content: $icon-css3;
+    color: #1572b6;
+  }
+}
+.icon-docker {
+  &:before {
+    content: $icon-docker;
+    color: #1488c6;
+  }
+}
+.icon-git {
+  &:before {
+    content: $icon-git;
+    color: #f05032;
+  }
+}
+.icon-html5 {
+  &:before {
+    content: $icon-html5;
+    color: #e34f26;
+  }
+}
+.icon-javascript {
+  &:before {
+    content: $icon-javascript;
+    color: #f7df1e;
+  }
+}
+.icon-magento {
+  &:before {
+    content: $icon-magento;
+    color: #ee672f;
+  }
+}
+.icon-mysql {
+  &:before {
+    content: $icon-mysql;
+    color: #4479a1;
+  }
+}
+.icon-php {
+  &:before {
+    content: $icon-php;
+    color: #777bb4;
+  }
+}
+.icon-python {
+  &:before {
+    content: $icon-python;
+    color: #3776ab;
+  }
+}
+.icon-react {
+  &:before {
+    content: $icon-react;
+    color: #61dafb;
+  }
+}
+.icon-sass {
+  &:before {
+    content: $icon-sass;
+    color: #c69;
+  }
+}
+.icon-symfony {
+  &:before {
+    content: $icon-symfony;
+  }
+}
+.icon-vuejs {
+  &:before {
+    content: $icon-vuejs;
+    color: #4fc08d;
+  }
+}
+.icon-vue .path1 {
+  &:before {
+    content: $icon-vue-path1;
+    color: rgb(65, 184, 131);
+  }
+}
+.icon-vue .path2 {
+  &:before {
+    content: $icon-vue-path2;
+    margin-left: -1em;
+    color: rgb(65, 184, 131);
+  }
+}
+.icon-vue .path3 {
+  &:before {
+    content: $icon-vue-path3;
+    margin-left: -1em;
+    color: rgb(53, 73, 94);
+  }
+}
+.icon-magento1 {
+  &:before {
+    content: $icon-magento1;
+    color: #ec6737;
+  }
+}
+.icon-php1 .path1 {
+  &:before {
+    content: $icon-php1-path1;
+    color: rgb(137, 147, 190);
+  }
+}
+.icon-php1 .path2 {
+  &:before {
+    content: $icon-php1-path2;
+    margin-left: -1em;
+    color: rgb(35, 37, 49);
+  }
+}
+.icon-html5-text .path1 {
+  &:before {
+    content: $icon-html5-text-path1;
+    color: rgb(228, 77, 38);
+  }
+}
+.icon-html5-text .path2 {
+  &:before {
+    content: $icon-html5-text-path2;
+    margin-left: -1em;
+    color: rgb(241, 101, 41);
+  }
+}
+.icon-html5-text .path3 {
+  &:before {
+    content: $icon-html5-text-path3;
+    margin-left: -1em;
+    color: rgb(235, 235, 235);
+  }
+}
+.icon-html5-text .path4 {
+  &:before {
+    content: $icon-html5-text-path4;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-html5-text .path5 {
+  &:before {
+    content: $icon-html5-text-path5;
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-css3-text .path1 {
+  &:before {
+    content: $icon-css3-text-path1;
+    color: rgb(32, 98, 175);
+  }
+}
+.icon-css3-text .path2 {
+  &:before {
+    content: $icon-css3-text-path2;
+    margin-left: -1em;
+    color: rgb(60, 156, 215);
+  }
+}
+.icon-css3-text .path3 {
+  &:before {
+    content: $icon-css3-text-path3;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-css3-text .path4 {
+  &:before {
+    content: $icon-css3-text-path4;
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-css3-text .path5 {
+  &:before {
+    content: $icon-css3-text-path5;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-css3-text .path6 {
+  &:before {
+    content: $icon-css3-text-path6;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-css3-text .path7 {
+  &:before {
+    content: $icon-css3-text-path7;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-css3-text .path8 {
+  &:before {
+    content: $icon-css3-text-path8;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.05;
+  }
+}
+.icon-css3-text .path9 {
+  &:before {
+    content: $icon-css3-text-path9;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-css3-text .path10 {
+  &:before {
+    content: $icon-css3-text-path10;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.05;
+  }
+}
+.icon-angular-color .path1 {
+  &:before {
+    content: $icon-angular-color-path1;
+    color: rgb(226, 50, 55);
+  }
+}
+.icon-angular-color .path2 {
+  &:before {
+    content: $icon-angular-color-path2;
+    margin-left: -1em;
+    color: rgb(181, 46, 49);
+  }
+}
+.icon-angular-color .path3 {
+  &:before {
+    content: $icon-angular-color-path3;
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-javascript-color .path1 {
+  &:before {
+    content: $icon-javascript-color-path1;
+    color: rgb(247, 223, 30);
+  }
+}
+.icon-javascript-color .path2 {
+  &:before {
+    content: $icon-javascript-color-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-monitor {
+  &:before {
+    content: $icon-monitor;
+  }
+}
+.icon-camera {
+  &:before {
+    content: $icon-camera;
+  }
+}
+.icon-cake {
+  &:before {
+    content: $icon-cake;
+  }
+}
+.icon-headphones {
+  &:before {
+    content: $icon-headphones;
+  }
+}
+.icon-plane {
+  &:before {
+    content: $icon-plane;
+  }
+}
+.icon-book {
+  &:before {
+    content: $icon-book;
+  }
+}
+.icon-airplane {
+  &:before {
+    content: $icon-airplane;
+  }
+}
+.icon-film {
+  &:before {
+    content: $icon-film;
+  }
+}
+.icon-location-food {
+  &:before {
+    content: $icon-location-food;
+  }
+}
+.icon-music-notes {
+  &:before {
+    content: $icon-music-notes;
+  }
 }
