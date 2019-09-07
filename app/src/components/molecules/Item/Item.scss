@@ -2,12 +2,13 @@
 
 .Item {
   margin-bottom: 0.5em;
+  white-space: pre-wrap;
   &__header {
     display: flex;
     flex-direction: row;
 
     & > * {
-      margin-bottom: 0.7em;
+      margin-bottom: 0.5em;
     }
   }
 
@@ -19,5 +20,10 @@
     flex: 1;
     text-align: right;
     font-family: $ff-dates;
+  }
+
+  &__content {
+    text-align: justify;
+    margin: 0;
   }
 }

@@ -1,20 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Lato&display=swap");
 @import "fonts";
+@import "variables";
 
 * {
   box-sizing: border-box;
 }
-
-/*
-COLORS
-*/
-$white: #ffffff;
-$black: #000000;
-$dark-grey: #262626;
-$medium-grey: #3a3a3a;
-$light-grey-1: #a1a1a1;
-$light-grey-2: #bbbbbb;
-$green: #3bf2c4;
 
 /*
 FONTS
@@ -24,20 +14,20 @@ $ff-dates: "Lato", sans-serif;
 
 body {
   font-family: $ff-body;
-  background: $dark-grey;
+  background: $background;
   color: $light-grey-1;
   font-size: 12px;
 }
 
 h1 {
   font-size: 1.8em;
-  color: $white;
+  color: $light;
   text-align: center;
 }
 
 h2 {
   font-size: 1.4em;
-  color: $white;
+  color: $light;
   margin: 0.5em 0;
 }
 

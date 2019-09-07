@@ -8,7 +8,7 @@ const Item = ({ title, dates, children }) => {
         <h3 className="Item__title">{title}</h3>
         <h3 className="Item__dates">{dates}</h3>
       </div>
-      {children}
+      <p className="Item__content">{children}</p>
     </div>
   );
 };

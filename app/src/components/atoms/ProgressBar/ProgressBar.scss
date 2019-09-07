@@ -4,10 +4,10 @@
   position: relative;
   height: 1em;
   width: 100%;
-  border: 1px solid $green;
+  border: 1px solid $primary;
 
   &__filler {
-    background: $green;
+    background: $primary;
     height: 100%;
     transition: width 0.2s ease-in;
   }
