@@ -86,6 +86,8 @@ const Introduction = () => {
         <SkillItem icon="icon-angular" percentage="70"></SkillItem>
         <SkillItem icon="icon-git" percentage="100"></SkillItem>
         <SkillItem icon="icon-docker" percentage="85"></SkillItem>
+        <SkillItem icon="icon-bootstrap" percentage="90"></SkillItem>
+        <SkillItem icon="icon-jquery" percentage="80"></SkillItem>
         <SkillsList icons={pictos} />
       </div>
       <div className="Introduction__section">

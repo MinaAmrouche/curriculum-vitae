@@ -34,8 +34,9 @@ FONTS
 $ff-body: "Montserrat", sans-serif;
 $ff-dates: "Lato", sans-serif;
 
-$icomoon-font-family: "cv" !default;
-$icomoon-font-path: "../assets/fonts/cv" !default;
+$cv-font: "cv" !default;
+$cv2-font: "cv2" !default;
+$font-path: "../assets/fonts" !default;
 
 /*
 ICONS
@@ -119,3 +120,5 @@ $icon-airplane: "\e932";
 $icon-film: "\e933";
 $icon-location-food: "\e934";
 $icon-music-notes: "\e935";
+$icon-jquery: "\e950";
+$icon-bootstrap: "\e94f";

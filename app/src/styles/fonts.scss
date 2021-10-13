@@ -1,12 +1,28 @@
 @import "variables";
 
 @font-face {
-  font-family: "#{$icomoon-font-family}";
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ykefiy");
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ykefiy#iefix") format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ykefiy") format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ykefiy") format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ykefiy##{$icomoon-font-family}") format("svg");
+  font-family: "#{$cv-font}";
+  src: url("#{$font-path}/#{$cv-font}/#{$cv-font}.eot?ykefiy");
+  src: url("#{$font-path}/#{$cv-font}/#{$cv-font}.eot?ykefiy#iefix")
+      format("embedded-opentype"),
+    url("#{$font-path}/#{$cv-font}/#{$cv-font}.ttf?ykefiy") format("truetype"),
+    url("#{$font-path}/#{$cv-font}/#{$cv-font}.woff?ykefiy") format("woff"),
+    url("#{$font-path}/#{$cv-font}/#{$cv-font}.svg?ykefiy##{$cv-font}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "#{$cv2-font}";
+  src: url("#{$font-path}/#{$cv2-font}/#{$cv2-font}.eot?ykefiy");
+  src: url("#{$font-path}/#{$cv2-font}/#{$cv2-font}.eot?ykefiy#iefix")
+      format("embedded-opentype"),
+    url("#{$font-path}/#{$cv2-font}/#{$cv2-font}.ttf?ykefiy") format("truetype"),
+    url("#{$font-path}/#{$cv2-font}/#{$cv2-font}.woff?ykefiy") format("woff"),
+    url("#{$font-path}/#{$cv2-font}/#{$cv2-font}.svg?ykefiy##{$cv2-font}")
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -15,7 +31,7 @@
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "#{$icomoon-font-family}" !important;
+  font-family: "#{$cv-font}", "#{$cv2-font}" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -519,5 +535,17 @@
 .icon-music-notes {
   &:before {
     content: $icon-music-notes;
+  }
+}
+.icon-jquery {
+  &:before {
+    content: $icon-jquery;
+    color: #0769ad;
+  }
+}
+.icon-bootstrap {
+  &:before {
+    content: $icon-bootstrap;
+    color: #563d7c;
   }
 }

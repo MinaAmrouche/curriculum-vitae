@@ -11,20 +11,19 @@ const Experiences = () => {
       content:
         "Built the front-end of UbiOps from scratch within 6 months on my own, then with 2 junior developers. Close communication with the backend team to create a well-designed reliable REST API. I was in charge on the front-end releases and prioritizing tasks for internal improvements and requests from stakeholders.",
       technologies:
-        "ReactJS, Redux, MUI, Docker, Gitlab CI, Kubernetes, Google Cloud.",
+        "ReactJS, Redux, MUI, Docker, Gitlab CI, Kubernetes, Google Cloud",
     },
     {
       title: "Front-end developer, Saegus",
       dates: "Apr 2018 - May 2019",
       content: `Fruitful collaboration with designers (UX, UI, graphic designers...) and data scientists. Development from scratch of several web applications for CAC40 companies : L'Oréal, Engie, Orange, TechnipFMC... Full project management including direct discussion with clients, costs estimation and development.`,
-      technologies: "ReactJS, Angular, NodeJS, Vue.",
+      technologies: "ReactJS, Angular, NodeJS, Vue, Bootstrap",
     },
     {
       title: "Fullstack web developer, Monsieur Biz",
       dates: "Sep 2016 - Mar 2018",
       content: `Maintainance and development of various e-commerce websites. Development from scratch of an e-commerce website & several apps using agile methodology.`,
-      technologies:
-        "Magento, Symfony, PHP, ReactJS, Docker, CircleCI, Jenkins.",
+      technologies: "Magento, Symfony, PHP, ReactJS, Docker, CircleCI, JQuery",
     },
   ];
 
