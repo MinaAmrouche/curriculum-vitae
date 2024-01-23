@@ -1,9 +1,10 @@
 version: "3"
 services:
   node:
+    container_name: curriculum-vitae
     build: ./app/
     ports:
-      - "3000:3000"
+      - ${CLIENT_PORT}:3000
     volumes:
       - ./app:/app
       - /app/node_modules
