@@ -1,10 +1,16 @@
-version: "3"
+version: "3.8"
 services:
-  node:
+  curriculum-vitae:
     container_name: curriculum-vitae
-    build: ./app/
+    build:
+      context: .
+      target: dev
+    command: yarn dev
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
     ports:
       - ${CLIENT_PORT}:3000
-    volumes:
-      - ./app:/app
-      - /app/node_modules
