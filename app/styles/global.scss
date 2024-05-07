@@ -27,11 +27,16 @@ h1 {
 
 h2 {
   font-size: 1.4em;
-  color: $light;
+  color: $secondary;
   margin: 0.5em 0;
 }
 
 h3 {
+  font-size: 1.2em;
+  color: $dark;
+}
+
+h4 {
   font-size: 1em;
-  color: $light-grey-2;
+  color: $dark;
 }

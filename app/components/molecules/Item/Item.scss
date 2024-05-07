@@ -1,7 +1,6 @@
 @import "styles/global.scss";
 
 .Item {
-  margin-bottom: 0.5em;
   white-space: pre-wrap;
   &__header {
     display: flex;
@@ -23,7 +22,6 @@
   }
 
   &__content {
-    text-align: justify;
     margin: 0;
   }
 }
