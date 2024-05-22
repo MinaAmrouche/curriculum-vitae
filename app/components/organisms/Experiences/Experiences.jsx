@@ -3,7 +3,7 @@ import { Separator } from "components/atoms";
 import { Item } from "components/molecules";
 
 const Experiences = () => {
-  const profile = `With 8 years of web development experience, I am a front-end specialist, passionate about initiating and leading projects from scratch. Transitioning from back-end to expert-level JavaScript and front-end development, I excel in crafting seamless user experiences tailored to meet business goals and stakeholder expectations.`;
+  const profile = `With over 8 years in web development, I'm a front-end specialist who loves building projects from scratch. I've mastered JavaScript, specialising in React & Vue.js, with a keen eye for detail and a knack for fixing bugs. I'm passionate about creating smooth, innovative UX that meets business goals and I strongly believe collaboration is key to growing both individually & as a team.`;
 
   const experiences = [
     {
