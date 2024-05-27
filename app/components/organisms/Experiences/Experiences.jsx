@@ -15,7 +15,7 @@ const Experiences = () => {
 <li>Sole front-end developer responsible for maintaining and improving a car rental app, utilizing Jira & Figma.</li>
 <li>Developed a React-based PWA quiz game in partnership with a back-end developer.</li>`,
       technologies:
-        "React, NextJS, Vue, GitHub CI, Firebase, JQuery, Vite, Figma, Typescript, Tailwind",
+        "React, NextJS, Vue, GitHub CI, Firebase, JQuery, Vite, Figma, Typescript, Tailwind, Figma",
     },
     {
       title: "Lead Front-end developer, UbiOps",
@@ -30,13 +30,13 @@ const Experiences = () => {
       content: `<li>Developed 2 Angular web apps —a dataset labeling tool & a models showroom— in collaboration with a data engineer and a UX/UI designer.</li>
 <li>Led an energy company project, creating a React landing page generator with reusable components.</li>
 <li>Enhanced a gamification-based React app for employee training and evaluation.</li>`,
-      technologies: "React, Angular, NodeJS, Vue, Bootstrap, Zeplin, Webpack",
+      technologies: "React, Angular, Typescript, NodeJS, Vue, Bootstrap, Zeplin, Webpack, Docker",
     },
     {
       title: "Fullstack web developer, Monsieur Biz",
       dates: "Sep 2016 - Mar 2018",
       content: `<li>Maintained and developed various e-commerce websites, and built an e-commerce website and several apps from scratch using agile methodology.</li>`,
-      technologies: "Magento, Symfony, PHP, React, Docker, CircleCI, JQuery",
+      technologies: "React, Magento, Symfony, PHP, Docker, CircleCI, JQuery",
     },
   ];
 
