@@ -1,4 +1,3 @@
-$dark-theme: false;
 /*
 COLORS
 */
@@ -15,18 +14,6 @@ $background: linear-gradient(0deg,
     white 20%,
     white 80%,
     #def1f9 100%);
-
-@if $dark-theme ==true {
-  $light: #ffffff;
-  $dark: #ffffff;
-  $dark-grey: #262626;
-  $medium-grey: #3a3a3a;
-  $light-grey-1: #c2c1c1;
-  $light-grey-2: #bbbbbb;
-  $primary: #3bf2c4;
-  $secondary: #cbfff2;
-  $background: $dark-grey;
-}
 
 /*
 FONTS
