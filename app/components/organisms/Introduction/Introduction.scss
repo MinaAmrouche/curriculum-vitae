@@ -3,10 +3,17 @@
 .Introduction {
   flex: 1;
   border-right: 2px solid $medium-grey;
-  padding: 0 1.5em;
+  padding: 0 1em;
 
   &__name {
     text-align: center;
+  }
+
+  &__languages {
+    font-size: 0.85em;
+    color: $light-grey-1;
+    font-family: $ff-dates;
+    margin-top: 0.4em;
   }
 
   &__picture {
@@ -21,15 +28,48 @@
   }
 
   &__picto {
-    font-size: 2em;
+    font-size: 1.5em;
     color: $primary;
   }
 
   &__section {
-    margin-bottom: 2em;
+    margin-bottom: 1.3em;
 
     &:last-child {
       margin-bottom: 0;
+    }
+  }
+
+  &__skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 0.5em;
+
+    i {
+      font-size: 1.5em;
+      color: $secondary;
+    }
+  }
+
+  &__skill-svg {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+
+    span {
+      border: 1px solid $secondary;
+      color: $secondary;
+      border-radius: 3px;
+      padding: 0.25em 0.6em;
+      font-size: 0.85em;
+      font-family: $ff-dates;
+      letter-spacing: 0.03em;
     }
   }
 }

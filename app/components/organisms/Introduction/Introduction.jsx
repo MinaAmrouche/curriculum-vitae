@@ -1,5 +1,5 @@
 import "./Introduction.scss";
-import { Separator } from "components/atoms";
+import { Separator, PictoDisplayer } from "components/atoms";
 import { ContactItem, Item, SkillItem, SkillsList } from "components/molecules";
 import Image from "next/image";
 
@@ -20,13 +20,14 @@ Nov 2018`,
           <Image
             src="/images/profile-picture.jpg"
             alt=""
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             className="Introduction__picture"
           />
           <h1>Mina AMROUCHE</h1>
-          <h3>Freelancer</h3>
-          <h2>Front-end developer</h2>
+          <h3>Founder, IMinaIT</h3>
+          <h2>Creative Technologist & Software Developer</h2>
+          <p className="Introduction__languages">French (Native) &middot; English (Fluent)</p>
         </div>
       </div>
       <div className="Introduction__section">
@@ -42,8 +43,14 @@ Nov 2018`,
           />
           <ContactItem
             picto="icon-phone"
-            content="+31 6 57 68 63 95"
-            link="tel:+31657686395"
+            content="+33 6 10 73 56 53"
+            link="tel:+33610735653"
+          />
+          <ContactItem picto="icon-map-pin" content="Paris, France" />
+          <ContactItem
+            picto="icon-monitor"
+            content="iminait.com"
+            link="https://iminait.com"
           />
           <ContactItem
             picto="icon-linkedin"
@@ -55,7 +62,6 @@ Nov 2018`,
             content="github.com/minaamrouche"
             link="https://github.com/minaamrouche"
           />
-          <ContactItem picto="icon-map-pin" content="The Hague, Netherlands" />
         </div>
       </div>
       <div className="Introduction__section">
@@ -63,20 +69,53 @@ Nov 2018`,
         <h2>Technical skills</h2>
         <Separator />
         <br />
-        <SkillItem icon="icon-javascript" percentage="100"></SkillItem>
-        <SkillItem icon="icon-react" percentage="100"></SkillItem>
-        <SkillItem icon="icon-vue" iconPaths={3} percentage="100"></SkillItem>
-        <SkillItem icon="icon-angular" percentage="80"></SkillItem>
-        <SkillItem icon="icon-git" percentage="100"></SkillItem>
-        <SkillItem icon="icon-docker" percentage="85"></SkillItem>
+        <div className="Introduction__skill-icons">
+          <PictoDisplayer picto="icon-javascript" />
+          <PictoDisplayer picto="icon-react" />
+          <PictoDisplayer picto="icon-vue" numberOfPaths={3} />
+          <PictoDisplayer picto="icon-nodejs" />
+          <img
+            src="/images/icons/typescript.svg"
+            alt="TypeScript"
+            className="Introduction__skill-svg"
+          />
+          <img
+            src="/images/icons/tailwindcss.svg"
+            alt="Tailwind CSS"
+            className="Introduction__skill-svg"
+          />
+          <img
+            src="/images/icons/nextjs.svg"
+            alt="Next.js"
+            className="Introduction__skill-svg"
+          />
+        </div>
       </div>
       <div className="Introduction__section">
         <Separator />
-        <h2>Languages</h2>
+        <h2>Tools & AI</h2>
         <Separator />
         <br />
-        <SkillItem icon="icon-france" iconPaths="4" percentage="100" />
-        <SkillItem icon="icon-uk" iconPaths="15" percentage="95" />
+        <div className="Introduction__tags">
+          <span>Figma</span>
+          <span>Claude</span>
+          <span>Cursor</span>
+          <span>Git</span>
+        </div>
+      </div>
+      <div className="Introduction__section">
+        <Separator />
+        <h2>Education</h2>
+        <Separator />
+        <Item title="Master in Computer Science, Epitech" dates="2015 - 2018">
+          Paris, France
+        </Item>
+        <Item
+          title="Mathematics / Computer Science, Bachelor"
+          dates="2013 - 2015"
+        >
+          Aix-Marseille Université, France
+        </Item>
       </div>
       <div className="Introduction__section">
         <Separator />
