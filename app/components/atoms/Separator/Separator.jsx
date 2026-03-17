@@ -1,7 +1,7 @@
 import "./Separator.scss";
 
-const Separator = () => {
-  return <hr className="Separator" />;
+const Separator = ({ width = "20%" }) => {
+  return <hr className="Separator" style={{ width }} />;
 };
 
 export default Separator;

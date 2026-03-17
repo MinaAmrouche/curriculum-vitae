@@ -1,18 +1,18 @@
 @import "styles/global.scss";
 
 .Experiences {
-  flex: 3;
+  flex: 4;
   border-left: 2px solid $medium-grey;
   padding: 0 1.5em;
 
   &__profile {
     border: 1px solid $light-grey-2;
     padding: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 
-    // h2 {
-    //   margin-top: 0em;
-    // }
+    h2 {
+      margin-top: 0em;
+    }
   }
 
   &__section {

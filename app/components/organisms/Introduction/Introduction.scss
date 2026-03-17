@@ -3,7 +3,10 @@
 .Introduction {
   flex: 1;
   border-right: 2px solid $medium-grey;
-  padding: 0 1.5em;
+  padding: 0 0.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   &__name {
     text-align: center;

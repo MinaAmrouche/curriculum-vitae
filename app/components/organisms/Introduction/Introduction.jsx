@@ -15,7 +15,7 @@ Nov 2018`,
   return (
     <div className="Introduction">
       <div className="Introduction__section">
-        <Separator />
+        <Separator width="100%" />
         <div className="Introduction__name">
           <Image
             src="/images/profile-picture.jpg"
@@ -27,13 +27,15 @@ Nov 2018`,
           <h1>Mina AMROUCHE</h1>
           <h3>Founder, IMinaIT</h3>
           <h2>Software Developer & Creative Technologist</h2>
-          <p className="Introduction__languages">French (Native) &middot; English (Fluent)</p>
+          <p className="Introduction__languages">
+            French (Native) &middot; English (Fluent)
+          </p>
         </div>
       </div>
       <div className="Introduction__section">
-        <Separator />
+        <Separator width="100%" />
         <h2>Contact details</h2>
-        <Separator />
+        <Separator width="100%" />
         <br />
         <div className="Introduction__contact">
           <ContactItem
@@ -65,9 +67,9 @@ Nov 2018`,
         </div>
       </div>
       <div className="Introduction__section">
-        <Separator />
+        <Separator width="100%" />
         <h2>Technical skills</h2>
-        <Separator />
+        <Separator width="100%" />
         <br />
         <div className="Introduction__skill-icons">
           <PictoDisplayer picto="icon-javascript" />
@@ -92,9 +94,9 @@ Nov 2018`,
         </div>
       </div>
       <div className="Introduction__section">
-        <Separator />
+        <Separator width="100%" />
         <h2>Tools & AI</h2>
-        <Separator />
+        <Separator width="100%" />
         <br />
         <div className="Introduction__tags">
           <span>Figma</span>
@@ -104,9 +106,9 @@ Nov 2018`,
         </div>
       </div>
       <div className="Introduction__section">
-        <Separator />
+        <Separator width="100%" />
         <h2>Education</h2>
-        <Separator />
+        <Separator width="100%" />
         <Item title="Master in Computer Science, Epitech" dates="2015 - 2018">
           Paris, France
         </Item>
@@ -118,9 +120,9 @@ Nov 2018`,
         </Item>
       </div>
       <div className="Introduction__section">
-        <Separator />
+        <Separator width="100%" />
         <h2>Trainings & certifications</h2>
-        <Separator />
+        <Separator width="100%" />
         {trainings.map((item, index) => {
           return (
             <Item title={item.title} key={index}>
