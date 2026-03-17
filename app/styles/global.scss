@@ -16,7 +16,7 @@ body {
   font-family: $ff-body;
   background: $background;
   color: $light-grey-1;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 h1 {
@@ -39,4 +39,11 @@ h3 {
 h4 {
   font-size: 1em;
   color: $dark;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
 }

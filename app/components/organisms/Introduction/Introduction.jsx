@@ -26,7 +26,7 @@ Nov 2018`,
           />
           <h1>Mina AMROUCHE</h1>
           <h3>Founder, IMinaIT</h3>
-          <h2>Creative Technologist & Software Developer</h2>
+          <h2>Software Developer & Creative Technologist</h2>
           <p className="Introduction__languages">French (Native) &middot; English (Fluent)</p>
         </div>
       </div>
